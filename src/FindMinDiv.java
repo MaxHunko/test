@@ -1,8 +1,11 @@
 public class FindMinDiv {
     public static void main(String[] args) {
-        int first = Integer.parseInt(args[0]) / Integer.parseInt(args[1]);
-        int second = Integer.parseInt(args[1]) / Integer.parseInt(args[0]);
+        double first = Double.parseDouble(args[0]) / Double.parseDouble(args[1]);
+        double second = Double.parseDouble(args[1]) / Double.parseDouble(args[0]);
 
-        System.out.println(first > second ? first : second);
+        if (first < second) {
+            System.out.println(first);
+        } else
+            System.out.println(second);
     }
 }
