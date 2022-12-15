@@ -5,6 +5,6 @@ public class ArgsFromConsole {
         for (int i = 0; i < args.length; i++) {
             tempArgs = tempArgs + args[i] + " ";
         }
-        System.out.println(tempArgs);
+        System.out.println(tempArgs.trim());
     }
 }

@@ -6,6 +6,6 @@ public class SumFromArgs {
             int tempArg = Integer.parseInt(args[i]);
             tempSum = tempSum + tempArg;
         }
-        System.out.println(Math.round(tempSum));
+        System.out.println(tempSum);
     }
 }
